@@ -38,9 +38,7 @@ cd Style-Your-Hair
 ```
 - Install dependencies:
 ```
-conda create -n {env_name} python=3.7.9
-conda activate {env_name}
-conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 pip install face_alignment face-recognition gdown ipython matplotlib
 ```
 
