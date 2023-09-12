@@ -200,7 +200,7 @@ def slic_custom(image, n_segments=100, compactness=10., max_iter=10, sigma=0,
     elif isinstance(spacing, (list, tuple)):
         spacing = np.ascontiguousarray(spacing, dtype=dtype)
 
-    if not isinstance(sigma, coll.Iterable):
+    if not isinstance(sigma, coll.abc.Iterable):
         sigma = np.array([sigma, sigma, sigma], dtype=dtype)
         sigma /= spacing.astype(dtype)
     elif isinstance(sigma, (list, tuple)):
