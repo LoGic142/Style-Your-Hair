@@ -33,7 +33,7 @@ Official Implementation of Style Your Hair. KEEP UPDATING! Please Git Pull the l
 ## Installation
 - Clone the repository:
 ``` 
-git clone https://github.com/Taeu/Style-Your-Hair.git
+git clone https://github.com/LoGic142/Style-Your-Hair.git
 cd Style-Your-Hair
 ```
 - Install dependencies:
